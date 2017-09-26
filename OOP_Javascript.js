@@ -1,7 +1,7 @@
 "use strict";
 
 class Employee {
-    constructor(name, department, officeLocation, ) {
+    constructor(name, department, officeLocation) {
         this._name = name;
         this._department = department;
         this._officeLocation = officeLocation;
@@ -35,7 +35,7 @@ class InfoTech extends Employee {
     getFunFact(hobby) {
         let x = new Employee();
         let firstName = x['getFirstName']();
-        return first + 'loves' + hobby
+        return firstName + 'loves' + hobby
     }
 
 }
