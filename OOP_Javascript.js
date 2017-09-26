@@ -7,12 +7,12 @@ class Employee {
         this._officeLocation = officeLocation;
     }
     getFirstName() {
-        var names = this._name.split();
+        var names = this._name.split(' ');
         return names.shift();
 
     }
     getLastName() {
-        var names = this._name.split();
+        var names = this._name.split(' ');
         return names.pop();
     }
     getFullName() {
