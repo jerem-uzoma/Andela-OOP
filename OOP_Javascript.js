@@ -8,11 +8,12 @@ class Employee {
     }
     getFirstName() {
         var names = this._name.split();
-        return names[0];
+        return names.shift();
+
     }
     getLastName() {
         var names = this._name.split();
-        return names[-1];
+        return names.pop();
     }
     getFullName() {
         return this._name
