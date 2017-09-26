@@ -21,8 +21,8 @@ class Employee {
 }
 
 class AdminDpt extends Employee {
-    constructor(name, department, officeLocation, workDays) {
-        super(name, department, officeLocation, workDays);
+    constructor(name, department, officeLocation,) {
+        super(name, department, officeLocation);
         this._employeesWithManager = [];
     }
     addEmployee(employee) {
@@ -30,8 +30,8 @@ class AdminDpt extends Employee {
     }
 }
 class InfoTech extends Employee {
-    constructor(name, department, officeLocation, workDays) {
-        super(name, department, officeLocation, workDays);
+    constructor(name, department, officeLocation,) {
+        super(name, department, officeLocation,);
     }
     getFunFact(hobby) {
         let x = new Employee();
@@ -41,8 +41,8 @@ class InfoTech extends Employee {
 
 }
 class HumanResources extends Employee {
-    constructor(name, department, officeLocation, workDays, ) {
-        super(name, department, officeLocation, workDays);
+    constructor(name, department, officeLocation,) {
+        super(name, department, officeLocation,);
 
     }
     getNamesOfActiveEmpl() {
